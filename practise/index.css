@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #0f102c;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.header {
+  /* background-color: khaki; */
+  height: 43;
+  width: 100%;
+  font-size: 36px;
+  margin-top: 112px;
+  display: flex;
+}
+
+.logo {
+  align-content: flex-start;
+  margin-left: 80px;
+  /* background-color: blue; */
+}
+.nav {
+  margin-left: auto;
+
+  margin-right: 80px;
+  display: flex;
+  align-self: flex-end;
+  /* background-color: rebeccapurple; */
+}
+
+.left-40 {
+  margin-left: 40px;
+}
+.project {
+  margin-right: 80px;
+}
+
+.mid {
+  margin-top: 140px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 1257.76px;
+  height: 509px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 617px;
+  height: 100%;
+  background-color: khaki;
+}
+.right {
+  margin-left: 94px;
+  margin-top: 34px;
+  width: 541px;
+  height: auto;
+  /* background-color: blue; */
+}
+.topic h1 {
+  font-size: 72px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.paragraph {
+  font-size: 54px;
+  margin-top: 22px;
+}
+
+.right button {
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 60px;
+  padding: 10px;
+  background-color: #d9d9d9;
+}
